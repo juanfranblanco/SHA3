@@ -2,7 +2,7 @@
 (function () {
     'use strict';
     var Web3 = require('web3');
-    var web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+    var web3 = new Web3();
     var abiString = document.getElementById('abi');
 
     document.getElementById('calculateAbi').addEventListener(
