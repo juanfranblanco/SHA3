@@ -9,8 +9,7 @@
         'click',
         function (event) {
             event.preventDefault();
-            var current = web3.sha3(input.value);
-            document.getElementById('result').value = current;
+            document.getElementById('result').innerText = web3.sha3(input.value);
         }
     );
 }());

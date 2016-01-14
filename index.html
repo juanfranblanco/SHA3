@@ -28,10 +28,9 @@ Will output:
 </pre>
 
 <form>
-    <h2>ABI Input</h2>
+    <h3>ABI Input</h3>
     <input  type="text" id="abi"></input>
     <button type="submit" id="calculateAbi">Calculate</button>
-    <h2>Result</h2>
     <pre id="resultAbi"></pre>
     <br>
 
@@ -40,17 +39,17 @@ Will output:
 <h1> Simple Sha3 calculation </h1>
 Use this if you don't have the ABI and / or just want to generate the Sha3.
 <form>
-    <h2>Input</h2>
+    <h3>Input</h3>
     <input  type="text" id="input"></input>
     <button type="submit" id="calculate">Calculate</button>
-    <button type="reset" id="reset">Reset</button>
-    <h2>Result</h2>
-    <input id="result">
+     <pre id="result"></pre>
     <br>
 
 </form>
 
-
+<div id="footer">
+      <a href="https://github.com/juanfranblanco/SHA3">Github</a>
+</div>
 <script src="lib/web3.js"></script>
 <script src="js/sha3.js"></script>
 <script src="js/sha3Abi.js"></script>
