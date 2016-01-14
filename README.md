@@ -1,2 +1,5 @@
 # SHA3
-SHA3 playground to encode function / events
+
+Sha3 function / event encoding using an Ethereum Contract ABI. 
+
+Use it here: http://juan.blanco.ws/SHA3 
